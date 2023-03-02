@@ -1,3 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  padding: 100px 200px;
+}
+
+/* Navbar */
+
+.logo {
+  display: inline-block;
+}
+
+.logo img {
+  width: 100px;
+  vertical-align: middle;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item a {
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 40px;
+  color: black;
+}
+
+.nav-item:hover a {
+  color: hsl(35, 77%, 62%);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Body */
+.container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.top-container {
+  width: 1000px;
+}
+
+.main-text {
+  display: flex;
+  padding-top: 20px;
+}
+
+.main-info-text {
+  width: 50%;
+}
+
+.main-info-side-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-header {
+  font-weight: 800;
+  font-size: 65px;
+}
+
+.center-text {
+  color: hsl(236, 13%, 42%);
+}
+
+.btn {
+  background-color: hsl(5, 85%, 63%);
+  color: white;
+  cursor: pointer;
+  padding: 20px 50px;
+  font-size: 30px;
+  border: none;
+}
+
+.side-panel {
+  background-color: black;
+  width: 475px;
+  height: 700px;
+  padding: 20px;
+}
+
+.main-img {
+  width: 100%;
+}
+
+.side-main-header {
+  color: goldenrod;
+  padding-top: 20px;
+}
+
+.side-header {
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.side-header:hover {
+  color: goldenrod;
+  cursor: pointer;
+}
+
+.side-text {
+  color: gray;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+/* Bottom */
+
+.bottom-container {
+  display: flex;
+}
+
+.bottom-component {
+  display: flex;
+}
+
+/* for contribution */
 .attribution {
   font-size: 11px;
   text-align: center;

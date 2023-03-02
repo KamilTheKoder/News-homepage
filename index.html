@@ -11,74 +11,117 @@
       href="./assets/images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Frontend Mentor | News homepage</title>
   </head>
   <body>
-    <nav>
-      <ul class="nav">
+    <nav class="navbar">
+      <a class="logo">
         <img src="assets/images/logo.svg" alt="logo" />
-        <li class="nav-item">Home</li>
-        <li class="nav-item">New</li>
-        <li class="nav-item">Popular</li>
-        <li class="nav-item">Trending</li>
-        <li class="nav-item">Categories</li>
+      </a>
+      <ul class="nav-links">
+        <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item"><a href="#">New</a></li>
+        <li class="nav-item"><a href="#">Popular</a></li>
+        <li class="nav-item"><a href="#">Trending</a></li>
+        <li class="nav-item"><a href="#">Categories</a></li>
       </ul>
     </nav>
 
-    <img src="assets/images/image-web-3-desktop.jpg" />
+    <div class="container">
+      <div class="top-container">
+        <img class="main-img" src="assets/images/image-web-3-desktop.jpg" />
+        <div class="main-text">
+          <div class="main-info-text">
+            <h1 class="main-header">
+              The Bright <br />
+              Future of <br />
+              Web 3.0?
+            </h1>
+          </div>
 
-    <h1 class="main-header">The Bright Future of Web 3.0?</h1>
+          <div class="main-info-side-text">
+            <div class="text-container">
+              <p class="center-text">
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+            </div>
+            <div class="btn-container">
+              <button class="btn">READ MORE</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <p class="center-text">
-      We dive into the next evolution of the web that claims to put the power of
-      the platforms back into the hands of the people. But is it really
-      fulfilling its promise?
-    </p>
+      <div class="side-panel">
+        <h1 class="side-main-header">New</h1>
 
-    <button class="btn">Read more</button>
-    <div class="side-panel">
-      <h1 class="side-main-header">New</h1>
+        <h2 class="side-header">Hydrogen VS Electric Cars</h2>
+        <p class="side-text">Will hydrogen-fueled cars ever catch up to EVs?</p>
+        <hr />
 
-      <h2 class="side-header">Hydrogen VS Electric Cars</h2>
-      <p class="side-text">Will hydrogen-fueled cars ever catch up to EVs?</p>
+        <h2 class="side-header">The Downsides of AI Artistry</h2>
+        <p class="side-text">
+          What are the possible adverse effects of on-demand AI image
+          generation?
+        </p>
+        <hr />
 
-      <h2 class="side-header">The Downsides of AI Artistry</h2>
-      <p class="side-text">
-        What are the possible adverse effects of on-demand AI image generation?
-      </p>
-
-      <h2 class="side-header">Is VC Funding Drying Up?</h2>
-      <p class="side-text">
-        Private funding by VC firms is down 50% YOY. We take a look at what that
-        means.
-      </p>
+        <h2 class="side-header">Is VC Funding Drying Up?</h2>
+        <p class="side-text">
+          Private funding by VC firms is down 50% YOY. We take a look at what
+          that means.
+        </p>
+      </div>
     </div>
 
     <div class="bottom-container">
-      <img src="assets/images/image-retro-pcs.jpg" alt="retro console" />
-      <h2 class="bottom-main-header">01</h2>
-      <p class="bottom-header">Reviving Retro PCs</p>
-      <p class="bottom-text">
-        What happens when old PCs are given modern upgrades?
-      </p>
+      <div class="bottom-component">
+        <img src="assets/images/image-retro-pcs.jpg" alt="retro console" />
+        <div class="bottom-text">
+          <h2 class="bottom-main-header">01</h2>
+          <p class="bottom-header">Reviving Retro PCs</p>
+          <p class="bottom-text">
+            What happens when old PCs are given modern upgrades?
+          </p>
+        </div>
+      </div>
+
+      <div class="bottom-component">
+        <img src="assets/images/image-top-laptops.jpg" alt="lapotps picture" />
+        <div class="bottom-text">
+          <h2 class="bottom-main-header">02</h2>
+          <p class="bottom-header">Top 10 Laptops of 2022</p>
+          <p class="bottom-text">
+            Our best picks for various needs and budgets.
+          </p>
+        </div>
+      </div>
+
+      <div class="bottom-component">
+        <img
+          src="assets/images/image-gaming-growth.jpg"
+          alt="console picture"
+        />
+        <div class="bottom-text">
+          <h2 class="bottom-main-header">03</h2>
+          <p class="bottom-header">The Growth of Gaming</p>
+          <p class="bottom-text">
+            How the pandemic has sparked fresh opportunities.
+          </p>
+        </div>
+      </div>
     </div>
 
-    <div class="bottom-container">
-      <img src="assets/images/image-top-laptops.jpg" alt="lapotps picture" />
-      <h2 class="bottom-main-header">02</h2>
-      <p class="bottom-header">Top 10 Laptops of 2022</p>
-      <p class="bottom-text">Our best picks for various needs and budgets.</p>
-    </div>
-
-    <div class="bottom-container">
-      <img src="assets/images/image-gaming-growth.jpg" alt="console picture" />
-      <h2 class="bottom-main-header">03</h2>
-      <p class="bottom-header">The Growth of Gaming</p>
-      <p class="bottom-text">
-        How the pandemic has sparked fresh opportunities.
-      </p>
-    </div>
+    <hr />
 
     <div class="attribution">
       Challenge by
@@ -86,6 +129,7 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
