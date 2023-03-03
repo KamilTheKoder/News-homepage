@@ -21,18 +21,26 @@
     <title>Frontend Mentor | News homepage</title>
   </head>
   <body>
-    <nav class="navbar">
-      <a class="logo">
-        <img src="assets/images/logo.svg" alt="logo" />
-      </a>
-      <ul class="nav-links">
-        <li class="nav-item"><a href="#">Home</a></li>
-        <li class="nav-item"><a href="#">New</a></li>
-        <li class="nav-item"><a href="#">Popular</a></li>
-        <li class="nav-item"><a href="#">Trending</a></li>
-        <li class="nav-item"><a href="#">Categories</a></li>
-      </ul>
-    </nav>
+    <div>
+      <nav class="navbar">
+        <a class="logo">
+          <img src="assets/images/logo.svg" alt="logo" />
+        </a>
+        <ul class="nav-links">
+          <a href="#" id="burger-menu"></a>
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#">New</a></li>
+          <li class="nav-item"><a href="#">Popular</a></li>
+          <li class="nav-item"><a href="#">Trending</a></li>
+          <li class="nav-item"><a href="#">Categories</a></li>
+        </ul>
+
+        <div class="burger-menu2">
+          <img class="burger" src="/assets/images/icon-menu.svg" />
+          <img class="exit" src="/assets/images/icon-menu-close.svg" />
+        </div>
+      </nav>
+    </div>
 
     <div class="container">
       <div class="top-container">
@@ -90,7 +98,7 @@
           <h2 class="bottom-main-header">01</h2>
           <p class="bottom-header">Reviving Retro PCs</p>
           <p class="bottom-text">
-            What happens when old PCs are given modern upgrades?
+            What happens when old PCs <br />are given modern upgrades?
           </p>
         </div>
       </div>
@@ -101,7 +109,7 @@
           <h2 class="bottom-main-header">02</h2>
           <p class="bottom-header">Top 10 Laptops of 2022</p>
           <p class="bottom-text">
-            Our best picks for various needs and budgets.
+            Our best picks for various <br />needs and budgets.
           </p>
         </div>
       </div>
@@ -112,11 +120,13 @@
           alt="console picture"
         />
         <div class="bottom-text-container">
-          <h2 class="bottom-main-header">03</h2>
-          <p class="bottom-header">The Growth of Gaming</p>
-          <p class="bottom-text">
-            How the pandemic has sparked fresh opportunities.
-          </p>
+          <div>
+            <h2 class="bottom-main-header">03</h2>
+            <p class="bottom-header">The Growth of Gaming</p>
+            <p class="bottom-text">
+              How the pandemic has sparked <br />fresh opportunities.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -127,7 +137,7 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Kamil</a>.
     </div>
 
     <script src="script.js"></script>
